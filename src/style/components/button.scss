@@ -9,10 +9,19 @@
     width: 100%;
     cursor: pointer;
     -webkit-tap-highlight-color: transparent;
+    box-shadow: 2px 2px color('shadow');
 
     &:hover {
         background: color('main', 'alt');
     }
+
+    &:disabled{
+        border: 1px solid;
+        background-color: color('disabled');
+        color: color('disabled','inverse');
+        box-shadow: 0px 0px;
+    }
+
 }
 
 button,

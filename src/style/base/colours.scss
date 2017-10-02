@@ -11,6 +11,17 @@ $colors: (
     'subtle': (
         'main': #f2f2f2,
         'inverse': #444444
+    ),
+    'action': (
+        'main': rgb(255, 105, 180),
+        'inverse': #ffffff
+    ),
+    'disabled': (
+        'main': #75b3cc,
+        'inverse': #ffffff
+    ),
+    'shadow':(
+        'main':#859c9e
     )
 );
 

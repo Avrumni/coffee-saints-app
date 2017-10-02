@@ -5,13 +5,14 @@
 %action {
     position: relative;
     border-radius: 50%;
-    background: color('main');
-    color: color('main', 'inverse');
+    background: color('action');
+    color: color('action', 'inverse');
     display: block;
     width: 4rem;
     height: 4rem;
     overflow: hidden;
     text-indent: -999999px;
+    box-shadow: 2px 2px #9aa59a;
 
     &::before {
         position: absolute;
